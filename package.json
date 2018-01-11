@@ -1,0 +1,17 @@
+{
+  "name": "gameoflife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack": "^3.10.0",
+    "path": "^0.12.7"
+  },
+  "scripts": {
+    "build" : "webpack",
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ana",
+  "license": "ISC"
+}
